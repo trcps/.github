@@ -18,7 +18,7 @@ use these repositories as nice starter templates for different projects, or to a
 
 <br>
 
-## Reusable Recipes
+# Reusable Recipes
 
 Use a reusable recipe as such:
 
@@ -28,9 +28,27 @@ npx tmplr use trcps/<recipe>
 
 <br>
 
-- 📜 [**`license`**](https://github.com/trcps/license): add a license to your project.
-- 📦 [**`npm-autopublish`**](https://github.com/trcps/npm-autopublish): publish your NPM package when you commit with a version bump
-- 📐 [**`smart-gh-template`**](https://github.com/trcps/smart-gh-template): make your GitHub templates smarter using tmplr.
+### 📜 [**`license`**](https://github.com/trcps/license)
+add a license to your project.
+```bash
+npx tmplr use trcps/license
+```
+
+<br>
+
+### 📦 [**`npm-autopublish`**](https://github.com/trcps/npm-autopublish)
+publish your NPM package when you commit with a version bump
+```bash
+npx tmplr use trcps/npm-autopublish
+```
+
+<br>
+
+### 📐 [**`smart-gh-template`**](https://github.com/trcps/smart-gh-template)
+make your GitHub templates smarter using tmplr.
+```bash
+npx tmplr use trcps/smart-gh-template
+```
 
 <br>
 
