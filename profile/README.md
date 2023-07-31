@@ -1,12 +1,39 @@
-## Hi there 👋
+```bash
+┏━━━┓
+┃   ┗━━━┓
+┃       ┗━━━┓            ┓         •     
+┃           ┗━━━┓  ╋┏┳┓┏┓┃┏┓  ┏┓┏┓┏┓┏┓┏┓┏
+┃           ┏━━━┛  ┗┛┗┗┣┛┗┛   ┛ ┗ ┗┗┣┛┗ ┛
+┃       ┏━━━┛          ┛            ┛    
+┃   ┏━━━┛
+┗━━━┛
+```
 
-<!--
+This is a bunch of [tmplr](https://github.com/loreanvictor/tmplr) reusable recipes and templates. You can
+use these repositories as nice starter templates for different projects, or to alter your project in specific ways.
 
-**Here are some ideas to get you started:**
+<br>
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+> 💡 You need [Node.js](https://nodejs.org/en) to use these templates and recipes.
+
+<br>
+
+## Reusable Recipes
+
+Use a reusable recipe as such:
+
+```bash
+npx tmplr use trcps/<recipe>
+```
+
+<br>
+
+- 📜 [**`license`**](https://github.com/trcps/license): add a license to your project.
+- 📦 [**`npm-autopublish`**](https://github.com/trcps/npm-autopublish): publish your NPM package when you commit with a version bump
+- 📐 [**`smart-gh-template`**](https://github.com/trcps/smart-gh-template): make your GitHub templates smarter using tmplr.
+
+<br>
+
+_more recipes and templates coming soon ..._
+
+<br><br>
