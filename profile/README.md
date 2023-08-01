@@ -14,19 +14,34 @@ use these repositories as nice starter templates for different projects, or to a
 
 <br>
 
+- A _template_ is a starting point for a new project, determines your project layout, general config, etc.
+- A _recipe_ modifies a part of your project, for example by adding a license.
+
+<br>
+
 > 💡 You need [Node.js](https://nodejs.org/en) to use these templates and recipes.
 
 <br>
 
-# Reusable Recipes
+<table>
+<tbody>
+<tr>
+<td>
 
-Use a reusable recipe as such:
+### 🟦 [**`publish-ts`**](https://github.com/trcps/publish-ts)
+publish a TypeScript package.
 
 ```bash
-npx tmplr use trcps/<recipe>
+npx tmplr trcps/publish-ts
 ```
 
-<br>
+<div align="right">
+<img src="https://img.shields.io/badge/template-orange?style=flat-square"/>
+<img width="441" height="1"/>
+</div>
+  
+</td>
+<td>
 
 ### 📜 [**`license`**](https://github.com/trcps/license)
 add a license to your project.
@@ -34,15 +49,29 @@ add a license to your project.
 npx tmplr use trcps/license
 ```
 
-<br>
+<div align="right">
+<img src="https://img.shields.io/badge/recipe-white?style=flat-square"/>
+<img width="441" height="1"/>
+</div>
+  
+</td>
+</tr>
+<tr>
+<td>
 
 ### 📦 [**`npm-autopublish`**](https://github.com/trcps/npm-autopublish)
-publish your NPM package when you commit with a version bump
+autopublish your NPM package when you commit after your.
 ```bash
 npx tmplr use trcps/npm-autopublish
 ```
 
-<br>
+<div align="right">
+<img src="https://img.shields.io/badge/recipe-white?style=flat-square"/>
+<img width="441" height="1"/>
+</div>
+  
+</td>
+<td>
 
 ### 📐 [**`smart-gh-template`**](https://github.com/trcps/smart-gh-template)
 make your GitHub templates smarter using tmplr.
@@ -50,8 +79,18 @@ make your GitHub templates smarter using tmplr.
 npx tmplr use trcps/smart-gh-template
 ```
 
+<div align="right">
+<img src="https://img.shields.io/badge/recipe-white?style=flat-square"/>
+<img width="441" height="1"/>
+</div>
+  
+</td>
+</tr>
+</tbody>
+</table>
+
 <br>
 
-_more recipes and templates coming soon ..._
+> _More templates and recipes coming soon ..._
 
 <br><br>
