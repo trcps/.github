@@ -60,7 +60,7 @@ npx tmplr use trcps/license
 <td>
 
 ### 📦 [**npm-autopublish**](https://github.com/trcps/npm-autopublish)
-autopublish your NPM package when you commit after your.
+autopublish to NPM when you commit
 ```bash
 npx tmplr use trcps/npm-autopublish
 ```
